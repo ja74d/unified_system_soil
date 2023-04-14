@@ -2,16 +2,13 @@
 
 F4 = float(input("F4:"))
 F200 = float(input("F200:"))
-try:
-    PL = float(input("PL:"))
-    LL = float(input("LL:"))
-    CU = float(input("Cu:"))
-    CC = float(input("Cc:"))
+PL = float(input("PL:"))
+LL = float(input("LL:"))
+CU = float(input("Cu:"))
+CC = float(input("Cc:"))
 
-    PIs = LL-PL
-    PIa = 0.73*(LL-20)
-except:
-    pass
+PIs = LL-PL
+PIa = 0.73*(LL-20)
 
 
 if F200 > 50:
